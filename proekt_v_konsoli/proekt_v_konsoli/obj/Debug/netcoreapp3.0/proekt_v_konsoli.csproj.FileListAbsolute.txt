@@ -1,0 +1,11 @@
+C:\Users\diman\Documents\GitHub\proektpraktukym\proekt_v_konsoli\proekt_v_konsoli\bin\Debug\netcoreapp3.0\proekt_v_konsoli.exe
+C:\Users\diman\Documents\GitHub\proektpraktukym\proekt_v_konsoli\proekt_v_konsoli\bin\Debug\netcoreapp3.0\proekt_v_konsoli.deps.json
+C:\Users\diman\Documents\GitHub\proektpraktukym\proekt_v_konsoli\proekt_v_konsoli\bin\Debug\netcoreapp3.0\proekt_v_konsoli.runtimeconfig.json
+C:\Users\diman\Documents\GitHub\proektpraktukym\proekt_v_konsoli\proekt_v_konsoli\bin\Debug\netcoreapp3.0\proekt_v_konsoli.runtimeconfig.dev.json
+C:\Users\diman\Documents\GitHub\proektpraktukym\proekt_v_konsoli\proekt_v_konsoli\bin\Debug\netcoreapp3.0\proekt_v_konsoli.dll
+C:\Users\diman\Documents\GitHub\proektpraktukym\proekt_v_konsoli\proekt_v_konsoli\bin\Debug\netcoreapp3.0\proekt_v_konsoli.pdb
+C:\Users\diman\Documents\GitHub\proektpraktukym\proekt_v_konsoli\proekt_v_konsoli\obj\Debug\netcoreapp3.0\proekt_v_konsoli.csprojAssemblyReference.cache
+C:\Users\diman\Documents\GitHub\proektpraktukym\proekt_v_konsoli\proekt_v_konsoli\obj\Debug\netcoreapp3.0\proekt_v_konsoli.AssemblyInfoInputs.cache
+C:\Users\diman\Documents\GitHub\proektpraktukym\proekt_v_konsoli\proekt_v_konsoli\obj\Debug\netcoreapp3.0\proekt_v_konsoli.AssemblyInfo.cs
+C:\Users\diman\Documents\GitHub\proektpraktukym\proekt_v_konsoli\proekt_v_konsoli\obj\Debug\netcoreapp3.0\proekt_v_konsoli.dll
+C:\Users\diman\Documents\GitHub\proektpraktukym\proekt_v_konsoli\proekt_v_konsoli\obj\Debug\netcoreapp3.0\proekt_v_konsoli.pdb
