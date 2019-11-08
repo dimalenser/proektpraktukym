@@ -44,31 +44,52 @@ namespace proekt_v_konsoli
             Console.WriteLine(bal);
             
             var writer = new System.IO.BinaryWriter(
-                              System.IO.File.Open(@"D:\test.txt",
+                              System.IO.File.Open(@"C:\Users\diman\Documents\GitHub\proektpraktukym\rate_info.txt",
+                              System.IO.FileMode.Append, FileAccess.Write));
+            writer.Write(pib);
+            writer.Write(grupa);
+            writer.Write(bal);
+            writer.Close();
+
+            var reader = new System.IO.BinaryReader(
+                              System.IO.File.OpenRead(@"C:\Users\diman\Documents\GitHub\proektpraktukym\nstudents.txt"));
+            int nstudents = reader.ReadInt32();
+            reader.Close();
+            nstudents += 1;
+            
+            var writer2 = new System.IO.BinaryWriter(
+                              System.IO.File.Open(@"C:\Users\diman\Documents\GitHub\proektpraktukym\nstudents.txt",
                               System.IO.FileMode.Create));
-            try
-            {
-                writer.Write(pib);
-                writer.Write(grupa);
-                writer.Write(bal);
-            }
-            finally { writer.Close(); }
+            writer2.Write(nstudents);
+            writer2.Close(); 
 
         }
         static void rating()
         {
-            if (System.IO.File.Exists(@"D:\test.txt") == false) return;
+            if (System.IO.File.Exists(@"C:\Users\diman\Documents\GitHub\proektpraktukym\rate_info.txt") == false || System.IO.File.Exists(@"C:\Users\diman\Documents\GitHub\proektpraktukym\nstudents.txt") == false) return;
             //створення потоку читач
+            var readnstudents = new System.IO.BinaryReader(
+                              System.IO.File.OpenRead(@"C:\Users\diman\Documents\GitHub\proektpraktukym\nstudents.txt"));
+            int nstudents = readnstudents.ReadInt32();
+            readnstudents.Close();
+
+            string[] pib = new string[nstudents];
+            string[] grupa = new string[nstudents];
+            int[] bal = new int[nstudents];
             var reader = new System.IO.BinaryReader(
-                              System.IO.File.OpenRead(@"D:\test.txt"));
-            try
+                              System.IO.File.OpenRead(@"C:\Users\diman\Documents\GitHub\proektpraktukym\rate_info.txt"));
+            
+            Console.WriteLine("бал\tгрупа\tстудент");
+            for (int i = 0; i < nstudents - 1; i++)
             {
-                string pib = reader.ReadString();
-                string grupa = reader.ReadString();
-                int bal = reader.ReadInt32();
-                Console.WriteLine(pib+grupa+bal);
+                pib[i] = reader.ReadString();
+                grupa[i] = reader.ReadString();
+                bal[i] = reader.ReadInt32();
+                Console.WriteLine($"{bal[i]}\t{grupa[i]}\t{pib[i]}");
+
             }
-            finally { reader.Close(); }
+            
+            reader.Close(); 
         }
         static void Main(string[] args)
         {
@@ -80,7 +101,7 @@ namespace proekt_v_konsoli
             if (a == "#") rating();
             else
                 Console.WriteLine("paka");
-            rating();
+            //rating();
             Console.ReadLine();
         }
     }
