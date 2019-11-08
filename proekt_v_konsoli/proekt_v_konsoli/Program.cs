@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 
 namespace proekt_v_konsoli
 {
@@ -41,7 +42,33 @@ namespace proekt_v_konsoli
             vidpovid = (Console.ReadLine());
             if (vidpovid == "b") bal += 1;
             Console.WriteLine(bal);
+            
+            var writer = new System.IO.BinaryWriter(
+                              System.IO.File.Open(@"D:\test.txt",
+                              System.IO.FileMode.Create));
+            try
+            {
+                writer.Write(pib);
+                writer.Write(grupa);
+                writer.Write(bal);
+            }
+            finally { writer.Close(); }
 
+        }
+        static void rating()
+        {
+            if (System.IO.File.Exists(@"D:\test.txt") == false) return;
+            //створення потоку читач
+            var reader = new System.IO.BinaryReader(
+                              System.IO.File.OpenRead(@"D:\test.txt"));
+            try
+            {
+                string pib = reader.ReadString();
+                string grupa = reader.ReadString();
+                int bal = reader.ReadInt32();
+                Console.WriteLine(pib+grupa+bal);
+            }
+            finally { reader.Close(); }
         }
         static void Main(string[] args)
         {
@@ -50,9 +77,10 @@ namespace proekt_v_konsoli
             string a = (Console.ReadLine());
             if (a == "1") test();
             if (a == "0") System.Environment.Exit(-1);
-            if (a == "#") Console.WriteLine("Рейтинг скоро буде");
+            if (a == "#") rating();
             else
                 Console.WriteLine("paka");
+            rating();
             Console.ReadLine();
         }
     }
