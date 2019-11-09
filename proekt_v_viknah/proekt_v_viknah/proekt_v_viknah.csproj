@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{AAC43D7F-931E-4A57-92A3-8848E6742B65}</ProjectGuid>
+    <ProjectGuid>{A60DFEE6-245C-4A95-9522-AF69117781FB}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>proekt_v_viknah</RootNamespace>
     <AssemblyName>proekt_v_viknah</AssemblyName>
