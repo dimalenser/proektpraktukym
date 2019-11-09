@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace proekt_v_viknah
 {
-    public partial class Form1 : Form
+    public partial class Question1 : Form
     {
-        public Form1()
+        public Question1()
         {
             InitializeComponent();
         }

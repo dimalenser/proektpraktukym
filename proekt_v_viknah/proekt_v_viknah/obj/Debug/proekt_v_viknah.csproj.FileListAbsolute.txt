@@ -1,0 +1,13 @@
+C:\Users\diman\Documents\GitHub\proektpraktukym\proekt_v_viknah\proekt_v_viknah\bin\Debug\proekt_v_viknah.exe.config
+C:\Users\diman\Documents\GitHub\proektpraktukym\proekt_v_viknah\proekt_v_viknah\bin\Debug\proekt_v_viknah.exe
+C:\Users\diman\Documents\GitHub\proektpraktukym\proekt_v_viknah\proekt_v_viknah\bin\Debug\proekt_v_viknah.pdb
+C:\Users\diman\Documents\GitHub\proektpraktukym\proekt_v_viknah\proekt_v_viknah\obj\Debug\proekt_v_viknah.csprojAssemblyReference.cache
+C:\Users\diman\Documents\GitHub\proektpraktukym\proekt_v_viknah\proekt_v_viknah\obj\Debug\proekt_v_viknah.Properties.Resources.resources
+C:\Users\diman\Documents\GitHub\proektpraktukym\proekt_v_viknah\proekt_v_viknah\obj\Debug\proekt_v_viknah.csproj.GenerateResource.cache
+C:\Users\diman\Documents\GitHub\proektpraktukym\proekt_v_viknah\proekt_v_viknah\obj\Debug\proekt_v_viknah.exe
+C:\Users\diman\Documents\GitHub\proektpraktukym\proekt_v_viknah\proekt_v_viknah\obj\Debug\proekt_v_viknah.pdb
+C:\Users\diman\Documents\GitHub\proektpraktukym\proekt_v_viknah\proekt_v_viknah\obj\Debug\proekt_v_viknah.Home.resources
+C:\Users\diman\Documents\GitHub\proektpraktukym\proekt_v_viknah\proekt_v_viknah\obj\Debug\proekt_v_viknah.Question1.resources
+C:\Users\diman\Documents\GitHub\proektpraktukym\proekt_v_viknah\proekt_v_viknah\obj\Debug\proekt_v_viknah.Rating.resources
+C:\Users\diman\Documents\GitHub\proektpraktukym\proekt_v_viknah\proekt_v_viknah\obj\Debug\proekt_v_viknah.Registration.resources
+C:\Users\diman\Documents\GitHub\proektpraktukym\proekt_v_viknah\proekt_v_viknah\obj\Debug\proekt_v_viknah.Result.resources
