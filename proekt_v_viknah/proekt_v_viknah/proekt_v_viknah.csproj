@@ -60,6 +60,24 @@
     <Compile Include="Question1.Designer.cs">
       <DependentUpon>Question1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Question2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Question2.Designer.cs">
+      <DependentUpon>Question2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Question3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Question3.Designer.cs">
+      <DependentUpon>Question3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Question4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Question4.Designer.cs">
+      <DependentUpon>Question4.cs</DependentUpon>
+    </Compile>
     <Compile Include="Rating.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -92,6 +110,15 @@
     </Compile>
     <EmbeddedResource Include="Question1.resx">
       <DependentUpon>Question1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Question2.resx">
+      <DependentUpon>Question2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Question3.resx">
+      <DependentUpon>Question3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Question4.resx">
+      <DependentUpon>Question4.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Rating.resx">
       <DependentUpon>Rating.cs</DependentUpon>

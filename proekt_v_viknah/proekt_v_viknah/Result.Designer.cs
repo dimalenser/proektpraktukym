@@ -105,6 +105,7 @@
             this.buttonGoToTest.TabIndex = 10;
             this.buttonGoToTest.Text = "Розпочати тест";
             this.buttonGoToTest.UseVisualStyleBackColor = false;
+            this.buttonGoToTest.Click += new System.EventHandler(this.buttonGoToTest_Click);
             // 
             // label2
             // 
@@ -147,6 +148,7 @@
             this.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.Name = "Result";
             this.Text = "Result";
+            this.Load += new System.EventHandler(this.Result_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

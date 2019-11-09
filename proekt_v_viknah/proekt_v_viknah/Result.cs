@@ -21,7 +21,19 @@ namespace proekt_v_viknah
         {
             Rating rt = new Rating();
             rt.Show();
-            Hide();
+            Close();
+        }
+
+        private void buttonGoToTest_Click(object sender, EventArgs e)
+        {
+            Registration reg = new Registration();
+            reg.Show();
+            Close();
+        }
+
+        private void Result_Load(object sender, EventArgs e)
+        {
+            label2.Text = $"з успішністю {Program.bal} балів";
         }
     }
 }

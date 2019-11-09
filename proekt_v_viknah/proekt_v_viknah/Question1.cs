@@ -17,6 +17,15 @@ namespace proekt_v_viknah
             InitializeComponent();
         }
 
+        private void Question1_Load(object sender, EventArgs e)
+        {
+            richTextBoxQuestion1.Text = "Cкільки буде 1 + 1 * 1 ?";
+            richTextBoxAnswer1a.Text = "a) 0";
+            richTextBoxAnswer1b.Text = "b) 1";
+            richTextBoxAnswer1c.Text = "c) 2";
+            richTextBoxAnswer1d.Text = "d) 6";
+        }
+
         private void buttonExit_Click(object sender, EventArgs e)
         {
             Application.Exit();
@@ -24,9 +33,13 @@ namespace proekt_v_viknah
 
         private void buttonNexQuestion1_Click(object sender, EventArgs e)
         {
-            Result rslt = new Result();
-            rslt.Show();
-            Hide();
+            string vidpovid = textBox1.Text;
+            if (vidpovid == "c") Program.bal +=1;
+            Question2 qstn2 = new Question2();
+            qstn2.Show();
+            Close();
         }
+
+        
     }
 }
