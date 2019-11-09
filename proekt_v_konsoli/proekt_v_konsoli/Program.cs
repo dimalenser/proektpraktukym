@@ -89,7 +89,56 @@ namespace proekt_v_konsoli
 
             }
             
-            reader.Close(); 
+            reader.Close();
+
+            for (int i = 0; i < nstudents; i++)
+            {
+                for (int j = 0; j < nstudents - 2; j++)
+                {
+                    if (bal[j] < bal[j + 1])
+                    {
+                        string max = bal[j].ToString();
+                        bal[j] = bal[j + 1];
+                        bal[j + 1] = Int32.Parse(max);
+
+                        max = pib[j];
+                        pib[j] = pib[j + 1];
+                        pib[j + 1] = max;
+
+                        max = grupa[j];
+                        grupa[j] = grupa[j + 1];
+                        grupa[j + 1] = max;
+                    }
+                }
+            }
+
+            //сортую масиви по спаданню рейтингу
+            /*for (int i = 0; i < nstudents - 1; i++)
+            {
+                if (bal[i] > bal[i + 1])Console.WriteLine()
+                
+                else{
+                    string max = bal[i].ToString();
+                    bal[i] = bal[i + 1];
+                    bal[i + 1] = Int32.Parse(max);
+
+                    max = pib[i];
+                    pib[i] = pib[i + 1];
+                    pib[i + 1] = max;
+
+                    max = grupa[i];
+                    grupa[i] = grupa[i + 1];
+                    grupa[i + 1] = max;
+                }
+            }
+            */
+            Console.WriteLine("Посортований рейтинг");
+            Console.WriteLine("бал\tгрупа\tстудент");
+            for (int i = 0; i < nstudents-1; i++)
+            {
+                Console.WriteLine($"{bal[i]}\t{grupa[i]}\t{pib[i]}");
+            }
+
         }
         static void Main(string[] args)
         {
