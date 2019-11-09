@@ -78,6 +78,7 @@
             this.buttonExit.TabIndex = 10;
             this.buttonExit.Text = "Вихід";
             this.buttonExit.UseVisualStyleBackColor = false;
+            this.buttonExit.Click += new System.EventHandler(this.buttonExit_Click);
             // 
             // buttonNexQuestion1
             // 
@@ -93,6 +94,7 @@
             this.buttonNexQuestion1.TabIndex = 9;
             this.buttonNexQuestion1.Text = "продовжити";
             this.buttonNexQuestion1.UseVisualStyleBackColor = false;
+            this.buttonNexQuestion1.Click += new System.EventHandler(this.buttonNexQuestion1_Click);
             // 
             // textBox1
             // 

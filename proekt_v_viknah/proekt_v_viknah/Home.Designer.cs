@@ -70,6 +70,7 @@
             this.buttonGoToRegistration.TabIndex = 2;
             this.buttonGoToRegistration.Text = "Розпочати тест";
             this.buttonGoToRegistration.UseVisualStyleBackColor = false;
+            this.buttonGoToRegistration.Click += new System.EventHandler(this.buttonGoToRegistration_Click);
             // 
             // buttonExit
             // 
@@ -86,6 +87,7 @@
             this.buttonExit.TabIndex = 3;
             this.buttonExit.Text = "Вихід";
             this.buttonExit.UseVisualStyleBackColor = false;
+            this.buttonExit.Click += new System.EventHandler(this.buttonExit_Click);
             // 
             // buttonRating
             // 
@@ -102,6 +104,7 @@
             this.buttonRating.TabIndex = 4;
             this.buttonRating.Text = "Рейтинг";
             this.buttonRating.UseVisualStyleBackColor = false;
+            this.buttonRating.Click += new System.EventHandler(this.buttonRating_Click);
             // 
             // Home
             // 

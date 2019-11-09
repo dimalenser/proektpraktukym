@@ -16,5 +16,24 @@ namespace proekt_v_viknah
         {
             InitializeComponent();
         }
+
+        private void buttonHome_Click(object sender, EventArgs e)
+        {
+            Home hm = new Home();
+            hm.Show();
+            Close();
+        }
+
+        private void buttonExit_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void buttonGoToTest_Click(object sender, EventArgs e)
+        {
+            Registration reg = new Registration();
+            reg.Show();
+            Hide();
+        }
     }
 }

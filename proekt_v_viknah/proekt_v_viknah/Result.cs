@@ -16,5 +16,12 @@ namespace proekt_v_viknah
         {
             InitializeComponent();
         }
+
+        private void buttonRating_Click(object sender, EventArgs e)
+        {
+            Rating rt = new Rating();
+            rt.Show();
+            Hide();
+        }
     }
 }

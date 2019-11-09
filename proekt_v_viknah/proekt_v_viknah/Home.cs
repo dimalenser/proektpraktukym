@@ -16,5 +16,24 @@ namespace proekt_v_viknah
         {
             InitializeComponent();
         }
+
+        private void buttonGoToRegistration_Click(object sender, EventArgs e)
+        {
+            Registration reg = new Registration();
+            reg.Show();
+            Hide();
+        }
+
+        private void buttonRating_Click(object sender, EventArgs e)
+        {
+            Rating rt = new Rating();
+            rt.Show();
+            Hide();
+        }
+
+        private void buttonExit_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

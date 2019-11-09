@@ -30,7 +30,7 @@
         {
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.buttonRating = new System.Windows.Forms.Button();
+            this.buttonHome = new System.Windows.Forms.Button();
             this.buttonExit = new System.Windows.Forms.Button();
             this.buttonGoToTest = new System.Windows.Forms.Button();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
@@ -58,21 +58,22 @@
             this.label1.TabIndex = 13;
             this.label1.Text = "Рейтинг студетів";
             // 
-            // buttonRating
+            // buttonHome
             // 
-            this.buttonRating.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.buttonRating.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.buttonRating.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.buttonRating.FlatAppearance.BorderSize = 0;
-            this.buttonRating.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonRating.Font = new System.Drawing.Font("Arial Narrow", 35.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonRating.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.buttonRating.Location = new System.Drawing.Point(0, -7);
-            this.buttonRating.Name = "buttonRating";
-            this.buttonRating.Size = new System.Drawing.Size(198, 55);
-            this.buttonRating.TabIndex = 16;
-            this.buttonRating.Text = "Рейтинг";
-            this.buttonRating.UseVisualStyleBackColor = false;
+            this.buttonHome.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.buttonHome.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.buttonHome.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.buttonHome.FlatAppearance.BorderSize = 0;
+            this.buttonHome.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonHome.Font = new System.Drawing.Font("Arial Narrow", 35.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.buttonHome.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.buttonHome.Location = new System.Drawing.Point(-28, -11);
+            this.buttonHome.Name = "buttonHome";
+            this.buttonHome.Size = new System.Drawing.Size(408, 59);
+            this.buttonHome.TabIndex = 16;
+            this.buttonHome.Text = "Головна сторінка";
+            this.buttonHome.UseVisualStyleBackColor = false;
+            this.buttonHome.Click += new System.EventHandler(this.buttonHome_Click);
             // 
             // buttonExit
             // 
@@ -89,6 +90,7 @@
             this.buttonExit.TabIndex = 15;
             this.buttonExit.Text = "Вихід";
             this.buttonExit.UseVisualStyleBackColor = false;
+            this.buttonExit.Click += new System.EventHandler(this.buttonExit_Click);
             // 
             // buttonGoToTest
             // 
@@ -103,6 +105,7 @@
             this.buttonGoToTest.TabIndex = 14;
             this.buttonGoToTest.Text = "Розпочати тест";
             this.buttonGoToTest.UseVisualStyleBackColor = false;
+            this.buttonGoToTest.Click += new System.EventHandler(this.buttonGoToTest_Click);
             // 
             // richTextBox1
             // 
@@ -121,7 +124,7 @@
             this.ClientSize = new System.Drawing.Size(1350, 729);
             this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.buttonRating);
+            this.Controls.Add(this.buttonHome);
             this.Controls.Add(this.buttonExit);
             this.Controls.Add(this.buttonGoToTest);
             this.Controls.Add(this.pictureBox1);
@@ -139,7 +142,7 @@
 
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button buttonRating;
+        private System.Windows.Forms.Button buttonHome;
         private System.Windows.Forms.Button buttonExit;
         private System.Windows.Forms.Button buttonGoToTest;
         private System.Windows.Forms.RichTextBox richTextBox1;

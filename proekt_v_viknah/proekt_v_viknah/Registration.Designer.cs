@@ -76,6 +76,7 @@
             this.buttonHome.TabIndex = 8;
             this.buttonHome.Text = "<";
             this.buttonHome.UseVisualStyleBackColor = false;
+            this.buttonHome.Click += new System.EventHandler(this.buttonHome_Click);
             // 
             // buttonExit
             // 
@@ -92,6 +93,7 @@
             this.buttonExit.TabIndex = 7;
             this.buttonExit.Text = "Вихід";
             this.buttonExit.UseVisualStyleBackColor = false;
+            this.buttonExit.Click += new System.EventHandler(this.buttonExit_Click);
             // 
             // buttonGoToTest
             // 
@@ -106,6 +108,7 @@
             this.buttonGoToTest.TabIndex = 6;
             this.buttonGoToTest.Text = "Розпочати тест";
             this.buttonGoToTest.UseVisualStyleBackColor = false;
+            this.buttonGoToTest.Click += new System.EventHandler(this.buttonGoToTest_Click);
             // 
             // label2
             // 

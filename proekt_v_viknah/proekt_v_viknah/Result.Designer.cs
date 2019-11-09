@@ -74,6 +74,7 @@
             this.buttonRating.TabIndex = 12;
             this.buttonRating.Text = "Рейтинг";
             this.buttonRating.UseVisualStyleBackColor = false;
+            this.buttonRating.Click += new System.EventHandler(this.buttonRating_Click);
             // 
             // buttonExit
             // 

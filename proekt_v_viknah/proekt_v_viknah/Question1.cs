@@ -16,5 +16,17 @@ namespace proekt_v_viknah
         {
             InitializeComponent();
         }
+
+        private void buttonExit_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void buttonNexQuestion1_Click(object sender, EventArgs e)
+        {
+            Result rslt = new Result();
+            rslt.Show();
+            Hide();
+        }
     }
 }
