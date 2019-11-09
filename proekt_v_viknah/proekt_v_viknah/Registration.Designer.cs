@@ -30,7 +30,7 @@
         {
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.buttonRating = new System.Windows.Forms.Button();
+            this.buttonHome = new System.Windows.Forms.Button();
             this.buttonExit = new System.Windows.Forms.Button();
             this.buttonGoToTest = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
@@ -61,21 +61,21 @@
             this.label1.TabIndex = 5;
             this.label1.Text = "РЕЄСТРАЦІЯ СТУДЕНТА";
             // 
-            // buttonRating
+            // buttonHome
             // 
-            this.buttonRating.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.buttonRating.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.buttonRating.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.buttonRating.FlatAppearance.BorderSize = 0;
-            this.buttonRating.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonRating.Font = new System.Drawing.Font("Arial Narrow", 35.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonRating.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.buttonRating.Location = new System.Drawing.Point(9, -7);
-            this.buttonRating.Name = "buttonRating";
-            this.buttonRating.Size = new System.Drawing.Size(53, 55);
-            this.buttonRating.TabIndex = 8;
-            this.buttonRating.Text = "<";
-            this.buttonRating.UseVisualStyleBackColor = false;
+            this.buttonHome.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.buttonHome.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.buttonHome.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.buttonHome.FlatAppearance.BorderSize = 0;
+            this.buttonHome.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonHome.Font = new System.Drawing.Font("Arial Narrow", 35.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.buttonHome.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.buttonHome.Location = new System.Drawing.Point(9, -7);
+            this.buttonHome.Name = "buttonHome";
+            this.buttonHome.Size = new System.Drawing.Size(53, 55);
+            this.buttonHome.TabIndex = 8;
+            this.buttonHome.Text = "<";
+            this.buttonHome.UseVisualStyleBackColor = false;
             // 
             // buttonExit
             // 
@@ -154,7 +154,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.buttonRating);
+            this.Controls.Add(this.buttonHome);
             this.Controls.Add(this.buttonExit);
             this.Controls.Add(this.buttonGoToTest);
             this.Controls.Add(this.pictureBox1);
@@ -172,7 +172,7 @@
 
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button buttonRating;
+        private System.Windows.Forms.Button buttonHome;
         private System.Windows.Forms.Button buttonExit;
         private System.Windows.Forms.Button buttonGoToTest;
         private System.Windows.Forms.Label label2;
