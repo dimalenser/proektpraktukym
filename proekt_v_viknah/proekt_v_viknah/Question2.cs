@@ -33,11 +33,11 @@ namespace proekt_v_viknah
 
         private void Question2_Load(object sender, EventArgs e)
         {
-            richTextBoxQuestion1.Text = "Cкільки буде 2 + 2 * 2 ?";
-            richTextBoxAnswer1a.Text = "a) 0";
-            richTextBoxAnswer1b.Text = "b) 1";
-            richTextBoxAnswer1c.Text = "c) 2";
-            richTextBoxAnswer1d.Text = "d) 6";
+            richTextBoxQuestion1.Text = "Що зробить програма виконавши наступний код: Console.WriteLine ( «Hello, World!»)";
+            richTextBoxAnswer1a.Text = "a) Виріже слово Hello, World! З усього тексту";
+            richTextBoxAnswer1b.Text = "b) Видалить все значення з Hello, World!";
+            richTextBoxAnswer1c.Text = "c) Напише Hello, World!";
+            richTextBoxAnswer1d.Text = "d) Напише з нового рядка Hello, World!";
         }
     }
 }

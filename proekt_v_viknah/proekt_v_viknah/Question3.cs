@@ -36,11 +36,11 @@ namespace proekt_v_viknah
 
         private void Question3_Load(object sender, EventArgs e)
         {
-            richTextBoxQuestion1.Text = "Cкільки буде 3 + 3 * 3 ?";
-            richTextBoxAnswer1a.Text = "a) 12";
-            richTextBoxAnswer1b.Text = "b) 3";
-            richTextBoxAnswer1c.Text = "c) 9";
-            richTextBoxAnswer1d.Text = "d) 16";
+            richTextBoxQuestion1.Text = "Як зробити інкрементацію числа ?";
+            richTextBoxAnswer1a.Text = "a) ++";
+            richTextBoxAnswer1b.Text = "b) --";
+            richTextBoxAnswer1c.Text = "c) %%";
+            richTextBoxAnswer1d.Text = "d) !=";
         }
     }
 }

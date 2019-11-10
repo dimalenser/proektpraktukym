@@ -19,11 +19,11 @@ namespace proekt_v_viknah
 
         private void Question1_Load(object sender, EventArgs e)
         {
-            richTextBoxQuestion1.Text = "Cкільки буде 1 + 1 * 1 ?";
-            richTextBoxAnswer1a.Text = "a) 0";
-            richTextBoxAnswer1b.Text = "b) 1";
-            richTextBoxAnswer1c.Text = "c) 2";
-            richTextBoxAnswer1d.Text = "d) 6";
+            richTextBoxQuestion1.Text = "Що робить оператор «%» ?";
+            richTextBoxAnswer1a.Text = "a) Ні чого з вище перерахованого";
+            richTextBoxAnswer1b.Text = "b) Повертає тригонометричну функцію";
+            richTextBoxAnswer1c.Text = "c) Повертає відсоток від суми";
+            richTextBoxAnswer1d.Text = "d) Повертає залишок від ділення";
         }
 
         private void buttonExit_Click(object sender, EventArgs e)
@@ -34,7 +34,7 @@ namespace proekt_v_viknah
         private void buttonNexQuestion1_Click(object sender, EventArgs e)
         {
             string vidpovid = textBox1.Text;
-            if (vidpovid == "c") Program.bal +=1;
+            if (vidpovid == "d") Program.bal +=1;
             Question2 qstn2 = new Question2();
             qstn2.Show();
             Close();
