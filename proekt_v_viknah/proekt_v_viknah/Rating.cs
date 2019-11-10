@@ -51,7 +51,7 @@ namespace proekt_v_viknah
             var reader = new System.IO.BinaryReader(
                               System.IO.File.OpenRead(@"C:\Users\diman\Documents\GitHub\proektpraktukym\rate_info.txt"));
 
-            Console.WriteLine("бал\tгрупа\tстудент");
+            //Console.WriteLine("бал\tгрупа\tстудент");
             for (int i = 0; i < nstudents - 1; i++)
             {
                 pib[i] = reader.ReadString();

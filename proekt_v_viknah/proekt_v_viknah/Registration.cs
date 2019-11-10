@@ -32,28 +32,8 @@ namespace proekt_v_viknah
 
         private void buttonGoToTest_Click(object sender, EventArgs e)
         {
-            var writer = new System.IO.BinaryWriter(
-                              System.IO.File.Open(@"C:\Users\diman\Documents\GitHub\proektpraktukym\rate_info.txt",
-                              System.IO.FileMode.Append, FileAccess.Write));
-
-            var pib = Convert.ToString(textBoxPIB.Text);
-            var grupa = Convert.ToString(textBoxGrupa.Text);
-
-            writer.Write(pib);
-            writer.Write(grupa);
-            writer.Close();
-
-            var reader = new System.IO.BinaryReader(
-                              System.IO.File.OpenRead(@"C:\Users\diman\Documents\GitHub\proektpraktukym\nstudents.txt"));
-            int nstudents = reader.ReadInt32();
-            reader.Close();
-            nstudents += 1;
-
-            var writer2 = new System.IO.BinaryWriter(
-                              System.IO.File.Open(@"C:\Users\diman\Documents\GitHub\proektpraktukym\nstudents.txt",
-                              System.IO.FileMode.Create));
-            writer2.Write(nstudents);
-            writer2.Close();
+            Program.pib = Convert.ToString(textBoxPIB.Text);
+            Program.grupa = Convert.ToString(textBoxGrupa.Text);
 
             Question1 qstn = new Question1();
             qstn.Show();

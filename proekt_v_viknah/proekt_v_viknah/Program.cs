@@ -10,6 +10,8 @@ namespace proekt_v_viknah
     static class Program
     {
         public static int bal;
+        public static string pib;
+        public static string grupa;
         /// <summary>
         /// Главная точка входа для приложения.
         /// </summary>

@@ -27,12 +27,7 @@ namespace proekt_v_viknah
         {
             string vidpovid = textBox1.Text;
             if (vidpovid == "a") Program.bal += 1;
-
-            var writer = new System.IO.BinaryWriter(
-                              System.IO.File.Open(@"C:\Users\diman\Documents\GitHub\proektpraktukym\rate_info.txt",
-                              System.IO.FileMode.Append, FileAccess.Write));
-            writer.Write(Program.bal);
-            writer.Close();
+        
 
             Question4 qstn4 = new Question4();
             qstn4.Show();
