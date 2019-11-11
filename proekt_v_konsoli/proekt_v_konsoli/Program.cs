@@ -7,7 +7,7 @@ namespace proekt_v_konsoli
     {
         static void test()
         {
-            /*
+            
             string vidpovid;
             int bal = 0;
             Console.WriteLine("Введіть ваше прізвище, ім'я, по батькові");
@@ -56,8 +56,7 @@ namespace proekt_v_konsoli
                               System.IO.File.OpenRead(@"C:\Users\diman\Documents\GitHub\proektpraktukym\nstudents.txt"));
             int nstudents = reader.ReadInt32();
             reader.Close();
-            */
-            int nstudents = 5;
+            
             
             var writer2 = new System.IO.BinaryWriter(
                               System.IO.File.Open(@"C:\Users\diman\Documents\GitHub\proektpraktukym\nstudents.txt",
